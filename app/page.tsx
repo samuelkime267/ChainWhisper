@@ -8,7 +8,7 @@ import {
 
 export default function Home() {
   return (
-    <main className="flex justify-center items-center h-screen gap-8 flex-wrap">
+    <main className="flex justify-center items-center h-screen gap-8 flex-wrap p-8 relative">
       <div className="aspect-[4/5] w-96 p-3 bg-[#4c4b50] rounded-2xl flex items-center justify-center relative">
         <div className="relative aspect-[4/5] w-full h-auto overflow-hidden">
           <StarDesign className="absolute top-[1%] left-[1.5%] text-white size-8" />
@@ -18,10 +18,10 @@ export default function Home() {
 
         <div className="absolute left-0 bottom-0 w-full p-6">
           <div className="flex items-end justify-end flex-col gap-2 bg-white rounded-lg p-3">
-            <h6 className="font-audio text-xl">
+            <h6 className="font-audio text-xl text-[#4c4b50]">
               This is the title that will be given to the anonymous message
             </h6>
-            <p className="font-light text-xs">
+            <p className="font-light text-xs text-[#4c4b50]">
               Lorem ipsum dolor sit amet consectetur. Convallis sit amet mauris
               amet neque. Diam eget pellentesque purus neque dictum massa. Quis
               gravida ullamcorper et et egestas sed convallis mauris volutpat.
