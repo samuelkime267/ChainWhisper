@@ -8,7 +8,7 @@ import {
 
 export default function Home() {
   return (
-    <main className="flex justify-center items-center h-screen gap-8 flex-wrap p-8 relative">
+    <main className="flex justify-center items-center min-h-screen gap-8 flex-wrap p-8 relative">
       <div className="aspect-[4/5] w-96 p-3 bg-[#4c4b50] rounded-2xl flex items-center justify-center relative">
         <div className="relative aspect-[4/5] w-full h-auto overflow-hidden">
           <StarDesign className="absolute top-[1%] left-[1.5%] text-white size-8" />
