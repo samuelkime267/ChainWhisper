@@ -2,7 +2,7 @@ import { fonts } from "@/data/fonts.data";
 import { metadata } from "@/data/metadata.data";
 import "./globals.css";
 import Image from "next/image";
-import defaultBg from "@/assets/imgs/default-bg.png";
+import defaultBg from "@/assets/imgs/default-bg-small.png";
 
 export { metadata };
 
